@@ -1,0 +1,1 @@
+//mã số sinh viên(varchar|PK),Họ(Nvarchar,Ten(Nvarchar),mã khoa(varchar)),

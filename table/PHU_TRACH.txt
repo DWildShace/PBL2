@@ -1,0 +1,1 @@
+//MaGiaoVien(varchar|PK),MaMonHoc(varchar|PK)

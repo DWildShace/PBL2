@@ -1,0 +1,1 @@
+//Mã Khoa(varchar) , ten Khoa(nvarchar)

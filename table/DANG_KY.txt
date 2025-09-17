@@ -1,0 +1,1 @@
+//MaSoSinhVien(varchar|PK),MaLopHocPhan(varchar|PK),GK(float),TP(float),CK(float)

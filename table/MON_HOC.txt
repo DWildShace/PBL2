@@ -1,0 +1,1 @@
+//Mã môn học(varchar| PK),Tên Môn học(nvarchar),SoTC(int),Công Thức Tính Điểm(nvarchar)
