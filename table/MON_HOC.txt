@@ -1,1 +1,4 @@
-//Mã môn học(varchar| PK),Tên Môn học(nvarchar),SoTC(int),Công Thức Tính Điểm(nvarchar)
+//Mã môn học(varchar 4| PK),Tên Môn học(nvarchar),SoTC(int 1),Công Thức Tính Điểm(nvarchar)
+0012,kinh the chinh tri,2,0.3*0.2*0.5
+0056,triet hoc,2,3*0.2*0.5
+1023,ly thuyet thong tin,3,3*0.2*0.5

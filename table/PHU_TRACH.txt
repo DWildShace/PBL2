@@ -1,1 +1,6 @@
-//MaGiaoVien(varchar|PK),MaMonHoc(varchar|PK)
+//MaGiaoVien(varchar 4|PK),MaMonHoc(varchar 4|PK)
+
+1092,0012
+1045,0056
+1002,1023
+

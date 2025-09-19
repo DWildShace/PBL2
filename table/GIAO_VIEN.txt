@@ -1,1 +1,4 @@
-//mã giáo viên(varchar|PK),Ho(Nvarchar),Ten(Nvarchar),MaKhoa(varchar)
+//mã giáo viên(varchar 4|PK),Ho(Nvarchar),Ten(Nvarchar),MaKhoa(varchar 2)
+1092,VAN,CONG VU,09
+1045,VO,DUY PHUC,03
+1002,DAO,THANH VU,12

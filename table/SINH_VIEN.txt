@@ -1,1 +1,4 @@
-//mã số sinh viên(varchar|PK),Họ(Nvarchar,Ten(Nvarchar),mã khoa(varchar)),
+//mã số sinh viên(varchar 8|PK),Họ(Nvarchar,Ten(Nvarchar),mã khoa(varchar 2))
+102240393,NGUYEN,VAN NHAN,03
+102240222,BUI,THANH BINH,09
+102240902,NGUYEN,VAN TUYEN,12
