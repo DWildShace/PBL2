@@ -21,3 +21,8 @@ lay kich thuoc:
     V.empty() tra ve true va false
 
 co for-each
+
+
+
+hashtable chua cac thuc the
+moi thuc the se co 1 hashtable rieng

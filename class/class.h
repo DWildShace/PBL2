@@ -6,28 +6,36 @@ using namespace std;
 
 class Khoa {
 private:
-    string maKhoa;
-    string tenKhoa;
+    string MaKhoa;
+    string TenKhoa;
 public:
     // getter, setter, constructor
+
 };
 
 class MonHoc {
 private:
-    string maMonHoc;
+    string MaMonHoc;
     string tenMonHoc;
-    int soTC;
-    string congThucTinhDiem;
-public:
+    string TenMonHoc;
+    int SoTC;
+    string CongThucTinhDiem;
     // getter, setter, constructor
+    vector<MonHoc> getter();
+    vector<MonHoc> getter();
+    
+    void setter(string maMonHojc);
 };
-
+vector<MonHoc> MonHoc::getter(){
+    vector<MonHoc> monhoc={*this};
+    return monhoc;
+}
 class GiaoVien {
 private:
-    string maGiaoVien;
-    string ho;
-    string ten;
-    Khoa* khoa; // FK: mỗi GV thuộc 1 khoa
+    string MaGiaoVien;
+    string Ho;
+    string Ten;
+    Khoa* KhoaPtr; // FK: mỗi GV thuộc 1 khoa
 public:
     // getter, setter, constructor
 };
@@ -35,38 +43,38 @@ public:
 class SinhVien {
 private:
     string maSoSinhVien;
-    string ho;
-    string ten;
-    Khoa* khoa; // FK: mỗi SV thuộc 1 khoa
+        string Ho;
+        string Ten;
+        Khoa* KhoaPtr; // FK: mỗi SV thuộc 1 khoa
 public:
     // getter, setter, constructor
 };
 
 class LopHocPhan {
 private:
-    string maLopHocPhan;
-    MonHoc* monHoc;       // FK
-    GiaoVien* giaoVien;   // FK
-    vector<SinhVien*> danhSachSV; // nhiều SV đăng ký
+    string MaLopHocPhan;
+    MonHoc* MonHocPtr;       // FK
+    GiaoVien* GiaoVienPtr;   // FK
+    vector<SinhVien*> DanhSachSV; // nhiều SV đăng ký
 public:
     // methods: themSV, xoaSV, inDanhSach
 };
 
 class DangKy {
 private:
-    SinhVien* sinhVien;     
-    LopHocPhan* lopHocPhan; 
+    SinhVien* SinhVienPtr;     
+    LopHocPhan* LopHocPhanPtr; 
     float GK; 
     float TP;
     float CK;
 public:
-    float tinhDiemTongKet(); // có thể implement theo congThucTinhDiem của môn học
+    float TinhDiemTongKet(); // có thể implement theo CongThucTinhDiem của môn học
 };
 
 class PhuTrach {
 private:
-    GiaoVien* giaoVien;
-    MonHoc* monHoc;
+    GiaoVien* GiaoVienPtr;
+    MonHoc* MonHocPtr;
 public:
     // có thể mở rộng: học kỳ, năm học...
 };
