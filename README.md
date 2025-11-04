@@ -26,3 +26,4 @@ co for-each
 
 hashtable chua cac thuc the
 moi thuc the se co 1 hashtable rieng
+g++ User.cpp Monhoc.cpp DangKy.cpp Admin.cpp Account.cpp LopHocPhan.cpp Main.cpp Student.cpp Teacher.cpp -o Main.exe
