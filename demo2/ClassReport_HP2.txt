@@ -1,0 +1,4 @@
+Bao cao lop hoc phan: HP2
+So sinh vien kha gioi: 1
+So sinh vien trung binh: 0
+So sinh vien yeu: 0
