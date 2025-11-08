@@ -14,4 +14,6 @@ Teacher* teacher = dynamic_cast<Teacher*>(currentUser);
 
 GIẢI THÍCH LẠI DÒNG CODE NÀY
 
+
 username của account vừa là tên đăng nhập vừa là key 
+g++ User.cpp Account.cpp Admin.cpp DangKy.cpp LopHocPhan.cpp Main.cpp Monhoc.cpp Student.cpp Teacher.cpp -o Main.exe
