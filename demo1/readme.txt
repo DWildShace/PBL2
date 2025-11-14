@@ -6,4 +6,5 @@
     HashTable<Khoa>& getKhoaTable() { return khoaTable; }
 
 
-    chưa hiểU lắm về việc trả về &
+
+    g++ User.cpp Account.cpp Admin.cpp DangKy.cpp LopHocPhan.cpp Main.cpp Monhoc.cpp Student.cpp Teacher.cpp -o Main.exe
