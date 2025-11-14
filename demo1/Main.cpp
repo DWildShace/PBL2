@@ -107,19 +107,6 @@ void studentViewRegisteredClasses(Student* student, LoginSystem& loginSystem) {
     
     auto& dangKyTable = loginSystem.getDangKyTable();
     auto allDangKy = dangKyTable.getAllElements();
-    
-    // DEBUG: Hiển thị tất cả đăng ký của sinh viên này
-    // cout << "DEBUG: Tim kiem dang ky cho SV: " << student->getId() << endl;
-    // int count = 0;
-    // for (auto& dk : allDangKy) {
-    //     cout << "DEBUG: Dang ky " << count++ << ": " << dk.getMaLHP_FK() << "-" << dk.getMaSV_FK() << "-" << dk.getDiem() << endl;
-    //     if (dk.getMaSV_FK() == student->getId()) {
-    //         cout << "DEBUG: ==> Tim thay dang ky cho SV!" << endl;
-    //     }
-    // }
-    // cout << "Tong so dang ky: " << allDangKy.size() << endl;
-    // cout << endl;
-    
     bool found = false;
     
     cout << setw(10) << left << "Ma LHP" 
@@ -182,10 +169,7 @@ void teacherViewClasses(Teacher* teacher, LoginSystem& loginSystem) {
 bool isValidScore(float diem) {
     return diem >= 0.0f && diem <= 10.0f;
 }
-
-// Hàm cho giảng viên xem và sửa điểm sinh viên - ĐÃ SỬA ĐỒNG BỘ
-// Hàm cho giảng viên xem và sửa điểm sinh viên - SỬA LẠI ĐỒNG BỘ HOÀN TOÀN
-// Hàm cho giảng viên xem và sửa điểm sinh viên - SỬA LẠI INPUT
+// Hàm cho giảng viên xem và sửa điểm sinh viên
 void teacherViewAndEditScores(Teacher* teacher, LoginSystem& loginSystem) {
     clearScreen();
     cout << "=== XEM VA SUA DIEM SINH VIEN ===" << endl;
