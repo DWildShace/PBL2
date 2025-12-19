@@ -12,9 +12,9 @@ void Teacher::displayInfo() const {
 
 void Teacher::showMenu() {
     cout << "=== MENU GIANG VIEN ===" << endl;
-    cout << "1. Xem thong tin ca nhan" << endl;
-    cout << "2. Xem lop hoc phan dang day" << endl;
-    cout << "3. Xem va sua diem sinh vien" << endl;
+    cout << "1. Xem thong tin" << endl;
+    cout << "2. Xem va sua diem" << endl;
+    cout << "3. Thay doi mat khau" << endl;
     cout << "4. Dang xuat" << endl;
 }
 
@@ -23,3 +23,4 @@ string Teacher::toString() const {
 }
 
 Teacher::~Teacher() {}
+

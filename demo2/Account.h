@@ -5,7 +5,7 @@
 using namespace std;
 
 #pragma once
-class Account{
+class Account{          
     private:
         string Username;
         string Password;
@@ -19,6 +19,7 @@ class Account{
         User* getUser() const { return user; }
         void setUser(User* userPtr) { user = userPtr; }
         void displayInfo() const;
+        void setPassword(const string& newPass) {this->Password = newPass;}
         string toString() const;
         virtual ~Account();
 };

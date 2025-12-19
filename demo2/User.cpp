@@ -1,16 +1,8 @@
 #include "User.h"
 #include <iostream>
 #include <string>
-using namespace std;
 
-int to_int(string s) {
-    int num = 0;
-    for (char c : s) {
-        if (c < '0' || c > '9') {return -1;} 
-        num = num * 10 + (c - '0');
-    }
-    return num;
-}
+using namespace std;
 
 User::User(){
     Id = "";
@@ -29,4 +21,6 @@ void User::displayInfo() const {
     if (khoa != nullptr) {
         cout << " - Khoa: " << khoa->getTenKhoa();
     }
+    cout << endl;
 }
+
