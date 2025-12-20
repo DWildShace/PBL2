@@ -1,9 +1,0 @@
-SV1,hoang1
-SV2,hoang2
-SV3,sv3
-SV4,sv4  
-SV5,sv5
-GV1,huy1
-GV2,huy2
-GV3,gv3
-GV4,gv4

@@ -1,3 +1,0 @@
-MK1,KY THUAT OTO,2020
-MK2,Cong nghe thong tin,2019
-MK3,DIEN TU,2021
