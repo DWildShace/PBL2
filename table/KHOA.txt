@@ -1,4 +1,0 @@
-//Mã Khoa(varchar 2) , ten Khoa(nvarchar)
-09,khoa hoc su song
-03,cong nghe thong tin
-12,cong nghe ky thuat

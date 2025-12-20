@@ -1,4 +1,0 @@
-//MaSoSinhVien(varchar 8|PK),MaLopHocPhan(varchar 6|PK),GK(float 2),TP(float ),CK(float 2)
-102240393,123123,7.8,8.0,9.0
-102240222,123567,8.8,6.0,8.0
-102240902,249182,8.0,7.0,7.0

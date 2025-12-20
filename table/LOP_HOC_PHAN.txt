@@ -1,4 +1,0 @@
-//MaLopHocPhan(varchar 6|PK),MaMonHoc(varchar 4),MaGiaoVien(varchar 4),HocKy(varchar 1)
-123123,0012,1
-123567,0056,1
-249182,1023,3
